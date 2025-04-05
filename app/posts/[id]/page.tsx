@@ -1,6 +1,7 @@
 import Link from "next/link"
 import { Merriweather } from "next/font/google"
 import { notFound } from "next/navigation"
+import { getBaseUrl } from "../../lib/url";
 
 // Initialize the Merriweather font
 const merriweather = Merriweather({
@@ -24,7 +25,8 @@ export default async function Post({
 }) {
   const resolvedParams = await params;
   const resovledSearchParams = await searchParams;
-  const response = await fetch(`/api/posts/${resolvedParams.id}`);
+  const baseUrl = await getBaseUrl();
+  const response = await fetch(`${baseUrl}/api/posts/${resolvedParams.id}`);
   
   if (!response.ok) {
     if (response.status === 404) {

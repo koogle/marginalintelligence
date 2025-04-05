@@ -1,6 +1,7 @@
 import Link from "next/link"
 import { Inter } from "next/font/google"
 import { ArrowRight } from "lucide-react"
+import { getBaseUrl } from "./lib/url";
 
 // Initialize the Inter font with specific subsets
 const inter = Inter({ subsets: ["latin"] })
@@ -17,8 +18,10 @@ export default async function Home() {
   let posts: Post[] = [];
   let error = null;
 
+  const baseUrl = await getBaseUrl();
+
   try {
-    const response = await fetch('/api/posts');
+    const response = await fetch(`${baseUrl}/api/posts`);
     if (!response.ok) {
       throw new Error('Failed to fetch posts');
     }

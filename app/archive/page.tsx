@@ -3,6 +3,7 @@
 import Link from "next/link"
 import { ArrowRight } from "lucide-react"
 import { useEffect, useState } from "react"
+import { getBaseUrl } from "../lib/url"
 
 interface Post {
   id: string
@@ -28,20 +29,21 @@ export default function Archive() {
   useEffect(() => {
     const fetchPosts = async () => {
       try {
-        const response = await fetch('/api/posts')
+        const baseUrl = await getBaseUrl();
+        const response = await fetch(`${baseUrl}/api/posts`)
         if (!response.ok) {
           throw new Error('Failed to fetch posts')
         }
         const posts = await response.json()
-        
+
         // Transform posts into archive format
         const archiveData: { [year: number]: { [month: string]: Post[] } } = {}
-        
+
         posts.forEach((post: Post) => {
           const date = new Date(post.date)
           const year = date.getFullYear()
           const month = date.toLocaleString('default', { month: 'long' })
-          
+
           if (!archiveData[year]) {
             archiveData[year] = {}
           }
@@ -57,13 +59,13 @@ export default function Archive() {
           .map(([year, months]) => ({
             year: Number(year),
             months: Object.entries(months)
-              .sort(([monthA], [monthB]) => 
-                new Date(`${monthA} 1, ${year}`).getTime() - 
+              .sort(([monthA], [monthB]) =>
+                new Date(`${monthA} 1, ${year}`).getTime() -
                 new Date(`${monthB} 1, ${year}`).getTime()
               )
               .map(([name, posts]) => ({
                 name,
-                posts: posts.sort((a, b) => 
+                posts: posts.sort((a, b) =>
                   new Date(b.date).getTime() - new Date(a.date).getTime()
                 )
               }))
