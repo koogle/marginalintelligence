@@ -8,7 +8,13 @@ const merriweather = Merriweather({
   subsets: ["latin"],
 })
 
-export default async function Post({ params }: { params: { id: string } }) {
+export default async function Post({ 
+  params,
+  searchParams 
+}: { 
+  params: { id: string }
+  searchParams: { from?: string }
+}) {
   const response = await fetch(`http://localhost:3000/api/posts/${params.id}`);
   
   if (!response.ok) {
@@ -37,9 +43,15 @@ export default async function Post({ params }: { params: { id: string } }) {
         />
 
         <div className="mt-12 pt-6 border-t border-black">
-          <Link href="/" className="text-sm font-medium hover:underline">
-            ← Back to all posts
-          </Link>
+          {searchParams.from === 'archive' ? (
+            <Link href="/archive" className="text-sm font-medium hover:underline">
+              ← Back to archive
+            </Link>
+          ) : (
+            <Link href="/" className="text-sm font-medium hover:underline">
+              ← Back to home
+            </Link>
+          )}
         </div>
       </article>
     </main>

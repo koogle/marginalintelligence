@@ -123,12 +123,12 @@ export default function Archive() {
                           <div className="flex justify-between items-center">
                             <div>
                               <span className="text-sm text-gray-600 block">{post.date}</span>
-                              <Link href={`/posts/${post.id}`} className="font-medium hover:underline">
+                              <Link href={`/posts/${post.id}?from=archive`} className="font-medium hover:underline">
                                 {post.title}
                               </Link>
                             </div>
                             <Link
-                              href={`/posts/${post.id}`}
+                              href={`/posts/${post.id}?from=archive`}
                               className="border border-black p-1 hover:bg-black hover:text-white transition-colors"
                               aria-label={`Read ${post.title}`}
                             >
