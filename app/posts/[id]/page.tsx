@@ -30,7 +30,8 @@ export default async function Post({
     if (response.status === 404) {
       notFound();
     }
-    throw new Error('Failed to fetch post');
+    
+    throw new Error(`Failed to fetch post ${resolvedParams.id}`);
   }
 
   const post: Post = await response.json();

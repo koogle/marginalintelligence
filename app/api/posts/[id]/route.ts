@@ -4,14 +4,15 @@ import { NextRequest, NextResponse } from 'next/server';
 export async function GET(
   request: NextRequest
 ) {
-  const id = request.url.split('/').pop();
-
+  console.log("This is a test", request.nextUrl)
+  debugger;
+  const id = request.nextUrl.href.split("/").pop();
+  
   if (!id) {
     return NextResponse.json({ error: 'Post not found' }, { status: 404 });
   }
-  
+
   try {
-    
     const post = await getPost(id);
     if (!post) {
       return NextResponse.json({ error: 'Post not found' }, { status: 404 });
