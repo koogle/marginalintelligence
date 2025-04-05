@@ -1,76 +1,107 @@
+"use client"
+
 import Link from "next/link"
 import { ArrowRight } from "lucide-react"
+import { useEffect, useState } from "react"
 
-// Sample archive data - organized by year and month
-const archive = [
-  {
-    year: 2025,
-    months: [
-      {
-        name: "April",
-        posts: [
-          {
-            id: 1,
-            title: "Understanding the Basics of Typography in Web Design",
-            date: "April 2, 2025",
-          },
-        ],
-      },
-      {
-        name: "March",
-        posts: [
-          {
-            id: 2,
-            title: "Minimalism in Modern Web Development",
-            date: "March 28, 2025",
-          },
-          {
-            id: 3,
-            title: "The Power of Black and White Design",
-            date: "March 21, 2025",
-          },
-          {
-            id: 4,
-            title: "Creating Accessible Web Content",
-            date: "March 15, 2025",
-          },
-          {
-            id: 5,
-            title: "The Art of Whitespace in Design",
-            date: "March 8, 2025",
-          },
-          {
-            id: 6,
-            title: "Typography Trends for 2025",
-            date: "March 1, 2025",
-          },
-        ],
-      },
-    ],
-  },
-  {
-    year: 2024,
-    months: [
-      {
-        name: "December",
-        posts: [
-          {
-            id: 7,
-            title: "Year in Review: Web Design Trends",
-            date: "December 28, 2024",
-          },
-          {
-            id: 8,
-            title: "Building a Minimal Blog with Next.js",
-            date: "December 15, 2024",
-          },
-        ],
-      },
-    ],
-  },
-]
+interface Post {
+  id: string
+  title: string
+  date: string
+}
+
+interface MonthData {
+  name: string
+  posts: Post[]
+}
+
+interface YearData {
+  year: number
+  months: MonthData[]
+}
 
 export default function Archive() {
+  const [archive, setArchive] = useState<YearData[]>([])
+  const [isLoading, setIsLoading] = useState(true)
+  const [error, setError] = useState<string | null>(null)
+
+  useEffect(() => {
+    const fetchPosts = async () => {
+      try {
+        const response = await fetch('/api/posts')
+        if (!response.ok) {
+          throw new Error('Failed to fetch posts')
+        }
+        const posts = await response.json()
+        
+        // Transform posts into archive format
+        const archiveData: { [year: number]: { [month: string]: Post[] } } = {}
+        
+        posts.forEach((post: Post) => {
+          const date = new Date(post.date)
+          const year = date.getFullYear()
+          const month = date.toLocaleString('default', { month: 'long' })
+          
+          if (!archiveData[year]) {
+            archiveData[year] = {}
+          }
+          if (!archiveData[year][month]) {
+            archiveData[year][month] = []
+          }
+          archiveData[year][month].push(post)
+        })
+
+        // Convert to the required format
+        const formattedArchive = Object.entries(archiveData)
+          .sort(([yearA], [yearB]) => Number(yearB) - Number(yearA))
+          .map(([year, months]) => ({
+            year: Number(year),
+            months: Object.entries(months)
+              .sort(([monthA], [monthB]) => 
+                new Date(`${monthA} 1, ${year}`).getTime() - 
+                new Date(`${monthB} 1, ${year}`).getTime()
+              )
+              .map(([name, posts]) => ({
+                name,
+                posts: posts.sort((a, b) => 
+                  new Date(b.date).getTime() - new Date(a.date).getTime()
+                )
+              }))
+          }))
+
+        setArchive(formattedArchive)
+      } catch (err) {
+        setError(err instanceof Error ? err.message : 'An error occurred')
+      } finally {
+        setIsLoading(false)
+      }
+    }
+
+    fetchPosts()
+  }, [])
+
+  if (isLoading) {
+    return (
+      <main className="min-h-screen">
+        <div className="max-w-2xl mx-auto px-4 py-12">
+          <h1 className="text-4xl font-bold mb-6 border-b border-black pb-2">Archive</h1>
+          <p>Loading...</p>
+        </div>
+      </main>
+    )
+  }
+
+  if (error) {
+    return (
+      <main className="min-h-screen">
+        <div className="max-w-2xl mx-auto px-4 py-12">
+          <h1 className="text-4xl font-bold mb-6 border-b border-black pb-2">Archive</h1>
+          <p className="text-red-500">Error: {error}</p>
+        </div>
+      </main>
+    )
+  }
+
   return (
     <main className="min-h-screen">
       <div className="max-w-2xl mx-auto px-4 py-12">
