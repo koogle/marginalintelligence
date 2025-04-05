@@ -24,7 +24,7 @@ export default async function Post({
 }) {
   const resolvedParams = await params;
   const resovledSearchParams = await searchParams;
-  const response = await fetch(`http://localhost:3000/api/posts/${resolvedParams.id}`);
+  const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL || ''}/api/posts/${resolvedParams.id}`);
   
   if (!response.ok) {
     if (response.status === 404) {
