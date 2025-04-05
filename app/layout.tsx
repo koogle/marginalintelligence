@@ -12,8 +12,8 @@ const merriweather = Merriweather({
 })
 
 export const metadata: Metadata = {
-  title: "Minimal Blog",
-  description: "A minimal black and white blog with excellent typography",
+  title: "Marginal Intelligence",
+  description: "A minimal blog by Jakob Frick",
 }
 
 export default function RootLayout({
@@ -36,17 +36,12 @@ function Header() {
   return (
     <header className="border-b border-black">
       <div className="max-w-2xl mx-auto px-4 py-6 flex justify-between items-center">
-        <div className="font-bold text-xl">MINIMAL</div>
+        <div className="font-bold text-xl">MARGINAL INTELLIGENCE</div>
         <nav>
           <ul className="flex space-x-6">
             <li>
               <Link href="/" className="hover:underline">
                 Home
-              </Link>
-            </li>
-            <li>
-              <Link href="/" className="hover:underline">
-                Posts
               </Link>
             </li>
             <li>
@@ -72,23 +67,18 @@ function Footer() {
       <div className="max-w-2xl mx-auto px-4 py-6">
         <div className="flex justify-between items-center">
           <div>
-            <p className="text-sm">© {new Date().getFullYear()} Minimal Blog</p>
+            <p className="text-sm">© {new Date().getFullYear()} Jakob Frick</p>
           </div>
           <div>
             <ul className="flex space-x-4">
               <li>
-                <a href="#" className="text-sm hover:underline">
-                  Twitter
+                <a href="https://x.com/frick_jakob" className="text-sm hover:underline">
+                  X
                 </a>
               </li>
               <li>
-                <a href="#" className="text-sm hover:underline">
+                <a href="https://github.com/koogle" className="text-sm hover:underline">
                   GitHub
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-sm hover:underline">
-                  RSS
                 </a>
               </li>
             </ul>

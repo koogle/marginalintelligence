@@ -51,9 +51,9 @@ const posts = [
     author: "Alex Johnson",
   },
 ]
-
-export default function Post({ params }: { params: { id: string } }) {
-  const post = posts.find((post) => post.id === Number.parseInt(params.id))
+export default async function Post({ params }: { params: { id: string } }) {
+  const { id } = await params;
+  const post = posts.find((post) => post.id === Number.parseInt(id))
 
   if (!post) {
     return <div className="max-w-2xl mx-auto px-4 py-12">Post not found</div>
