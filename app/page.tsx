@@ -18,7 +18,7 @@ export default async function Home() {
   let error = null;
 
   try {
-    const response = await fetch('http://localhost:3000/api/posts');
+    const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL || ''}/api/posts`);
     if (!response.ok) {
       throw new Error('Failed to fetch posts');
     }
