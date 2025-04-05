@@ -1,13 +1,13 @@
-import Link from "next/link"
-import { Merriweather } from "next/font/google"
-import { notFound } from "next/navigation"
+import Link from "next/link";
+import { Merriweather } from "next/font/google";
+import { notFound } from "next/navigation";
 import { getBaseUrl } from "../../lib/url";
 
 // Initialize the Merriweather font
 const merriweather = Merriweather({
   weight: ["300", "400", "700", "900"],
   subsets: ["latin"],
-})
+});
 interface Post {
   id: string;
   title: string;
@@ -16,28 +16,27 @@ interface Post {
   readTime: string;
 }
 
-export default async function Post({ 
+export default async function Post({
   params,
-  searchParams 
-}: { 
-  params: Promise<{ id: string }>
-  searchParams: Promise<{ from?: string }>
+  searchParams,
+}: {
+  params: Promise<{ id: string }>;
+  searchParams: Promise<{ from?: string }>;
 }) {
   const resolvedParams = await params;
   const resovledSearchParams = await searchParams;
   const baseUrl = await getBaseUrl();
   const response = await fetch(`${baseUrl}/api/posts/${resolvedParams.id}`);
-  
+
   if (!response.ok) {
     if (response.status === 404) {
       notFound();
     }
-    
+
     throw new Error(`Failed to fetch post ${resolvedParams.id}`);
   }
 
   const post: Post = await response.json();
-  
 
   return (
     <main className={`min-h-screen ${merriweather.className}`}>
@@ -56,8 +55,11 @@ export default async function Post({
         />
 
         <div className="mt-12 pt-6 border-t border-black">
-          {resovledSearchParams.from === 'archive' ? (
-            <Link href="/archive" className="text-sm font-medium hover:underline">
+          {resovledSearchParams.from === "archive" ? (
+            <Link
+              href="/archive"
+              className="text-sm font-medium hover:underline"
+            >
               ← Back to archive
             </Link>
           ) : (
@@ -68,5 +70,5 @@ export default async function Post({
         </div>
       </article>
     </main>
-  )
+  );
 }

@@ -1,19 +1,19 @@
-"use client"
+"use client";
 
-import { Merriweather } from "next/font/google"
-import Link from "next/link"
+import { Merriweather } from "next/font/google";
+import Link from "next/link";
 
 const merriweather = Merriweather({
   weight: ["300", "400", "700", "900"],
   subsets: ["latin"],
-})
+});
 
 export default function Error({
   error,
   reset,
 }: {
-  error: Error & { digest?: string }
-  reset: () => void
+  error: Error & { digest?: string };
+  reset: () => void;
 }) {
   return (
     <main className={`min-h-screen ${merriweather.className}`}>
@@ -35,5 +35,5 @@ export default function Error({
         </div>
       </div>
     </main>
-  )
-} 
+  );
+}

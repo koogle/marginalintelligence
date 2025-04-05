@@ -1,10 +1,10 @@
-import Link from "next/link"
-import { Inter } from "next/font/google"
-import { ArrowRight } from "lucide-react"
+import Link from "next/link";
+import { Inter } from "next/font/google";
+import { ArrowRight } from "lucide-react";
 import { getBaseUrl } from "./lib/url";
 
 // Initialize the Inter font with specific subsets
-const inter = Inter({ subsets: ["latin"] })
+const inter = Inter({ subsets: ["latin"] });
 
 interface Post {
   id: number;
@@ -23,21 +23,23 @@ export default async function Home() {
   try {
     const response = await fetch(`${baseUrl}/api/posts`);
     if (!response.ok) {
-      throw new Error('Failed to fetch posts');
+      throw new Error("Failed to fetch posts");
     }
     posts = await response.json();
   } catch (err) {
-    error = err instanceof Error ? err.message : 'An error occurred';
+    error = err instanceof Error ? err.message : "An error occurred";
   }
 
   return (
     <main className={`min-h-screen ${inter.className}`}>
       <div className="max-w-2xl mx-auto px-4 py-12">
         <section className="mb-16">
-          <h1 className="text-4xl font-bold mb-6 border-b border-black pb-2">Minimal Blog</h1>
+          <h1 className="text-4xl font-bold mb-6 border-b border-black pb-2">
+            Minimal Blog
+          </h1>
           <p className="text-lg">
-            A clean, minimalist blog focused on typography and readability. Black and white design with sharp edges and
-            clear hierarchy.
+            A clean, minimalist blog focused on typography and readability.
+            Black and white design with sharp edges and clear hierarchy.
           </p>
         </section>
 
@@ -76,6 +78,5 @@ export default async function Home() {
         </section>
       </div>
     </main>
-  )
+  );
 }
-

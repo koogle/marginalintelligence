@@ -7,4 +7,3 @@ A minimal blog by Jakob Frick, built with [Next.js](https://nextjs.org). This is
 - Clean, minimalist design focused on typography and readability
 - Black and white aesthetic with sharp edges
 - Responsive layout optimized for all devices
-

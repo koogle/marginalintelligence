@@ -1,9 +1,9 @@
-import { Merriweather } from "next/font/google"
+import { Merriweather } from "next/font/google";
 
 const merriweather = Merriweather({
   weight: ["300", "400", "700", "900"],
   subsets: ["latin"],
-})
+});
 
 export default function Loading() {
   return (
@@ -12,7 +12,7 @@ export default function Loading() {
         <div className="animate-pulse">
           {/* Title skeleton */}
           <div className="h-8 bg-gray-200 rounded w-3/4 mb-4"></div>
-          
+
           {/* Date and read time skeleton */}
           <div className="flex items-center mb-8">
             <div className="h-4 bg-gray-200 rounded w-24"></div>
@@ -32,5 +32,5 @@ export default function Loading() {
         </div>
       </article>
     </main>
-  )
-} 
+  );
+}

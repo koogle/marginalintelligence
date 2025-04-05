@@ -1,24 +1,24 @@
-import type React from "react"
-import "./globals.css"
-import type { Metadata } from "next"
-import { Merriweather } from "next/font/google"
-import Link from "next/link"
+import type React from "react";
+import "./globals.css";
+import type { Metadata } from "next";
+import { Merriweather } from "next/font/google";
+import Link from "next/link";
 
 // Initialize the Merriweather font for body text
 const merriweather = Merriweather({
   weight: ["300", "400", "700", "900"],
   subsets: ["latin"],
   variable: "--font-merriweather",
-})
+});
 
 export const metadata: Metadata = {
   title: "Marginal Intelligence",
   description: "A minimal blog by Jakob Frick",
-}
+};
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
     <html lang="en">
@@ -28,7 +28,7 @@ export default function RootLayout({
         <Footer />
       </body>
     </html>
-  )
+  );
 }
 
 function Header() {
@@ -57,7 +57,7 @@ function Header() {
         </nav>
       </div>
     </header>
-  )
+  );
 }
 
 function Footer() {
@@ -71,12 +71,18 @@ function Footer() {
           <div>
             <ul className="flex space-x-4">
               <li>
-                <a href="https://x.com/frick_jakob" className="text-sm hover:underline">
+                <a
+                  href="https://x.com/frick_jakob"
+                  className="text-sm hover:underline"
+                >
                   X
                 </a>
               </li>
               <li>
-                <a href="https://github.com/koogle" className="text-sm hover:underline">
+                <a
+                  href="https://github.com/koogle"
+                  className="text-sm hover:underline"
+                >
                   GitHub
                 </a>
               </li>
@@ -85,5 +91,5 @@ function Footer() {
         </div>
       </div>
     </footer>
-  )
+  );
 }

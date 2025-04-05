@@ -18,4 +18,4 @@ From personal finance to business strategy, marginal intelligence plays a crucia
 
 ## Conclusion
 
-Developing marginal intelligence is a skill that can be cultivated over time. By focusing on incremental improvements and understanding the marginal impacts of our decisions, we can make better choices in both our personal and professional lives. 
+Developing marginal intelligence is a skill that can be cultivated over time. By focusing on incremental improvements and understanding the marginal impacts of our decisions, we can make better choices in both our personal and professional lives.
