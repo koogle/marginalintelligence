@@ -37,7 +37,7 @@ export const posts: Record<
 > = {
   "the-importance-of-marginal-intelligence": {
     id: "the-importance-of-marginal-intelligence",
-    title: "The Importance of Marginal Intelligence",
+    title: "The Importance of Marginal Intelligence [This is a demo post]",
     date: "2024-04-05",
   },
   // Add more posts here
