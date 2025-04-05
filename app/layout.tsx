@@ -15,7 +15,6 @@ export const metadata: Metadata = {
   title: "Marginal Intelligence",
   description: "A minimal blog by Jakob Frick",
 }
-
 export default function RootLayout({
   children,
 }: {
@@ -72,12 +71,12 @@ function Footer() {
           <div>
             <ul className="flex space-x-4">
               <li>
-                <a href="https://x.com/frick_jakob" className="text-sm hover:underline">
+                <a href="#" className="text-sm hover:underline">
                   X
                 </a>
               </li>
               <li>
-                <a href="https://github.com/koogle" className="text-sm hover:underline">
+                <a href="#" className="text-sm hover:underline">
                   GitHub
                 </a>
               </li>
@@ -88,4 +87,3 @@ function Footer() {
     </footer>
   )
 }
-
