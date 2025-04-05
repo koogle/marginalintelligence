@@ -33,16 +33,6 @@ export default async function Home() {
   return (
     <main className={`min-h-screen ${inter.className}`}>
       <div className="max-w-2xl mx-auto px-4 py-12">
-        <section className="mb-16">
-          <h1 className="text-4xl font-bold mb-6 border-b border-black pb-2">
-            Minimal Blog
-          </h1>
-          <p className="text-lg">
-            A clean, minimalist blog focused on typography and readability.
-            Black and white design with sharp edges and clear hierarchy.
-          </p>
-        </section>
-
         <section>
           <h2 className="text-2xl font-bold mb-6">Latest Posts</h2>
           {error ? (
