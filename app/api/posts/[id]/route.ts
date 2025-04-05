@@ -4,8 +4,6 @@ import { NextRequest, NextResponse } from 'next/server';
 export async function GET(
   request: NextRequest
 ) {
-  console.log("This is a test", request.nextUrl)
-  debugger;
   const id = request.nextUrl.href.split("/").pop();
   
   if (!id) {
