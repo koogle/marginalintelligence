@@ -71,7 +71,6 @@ export default async function Post({ params }: { params: { id: string } }) {
           <span className="mx-2">•</span>
           <span>By {post.author}</span>
         </div>
-
         <div
           className="prose prose-lg max-w-none prose-headings:font-bold prose-headings:text-black prose-p:text-black prose-a:text-black prose-a:underline"
           dangerouslySetInnerHTML={{ __html: post.content }}
