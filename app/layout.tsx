@@ -71,12 +71,12 @@ function Footer() {
           <div>
             <ul className="flex space-x-4">
               <li>
-                <a href="#" className="text-sm hover:underline">
+                <a href="https://x.com/frick_jakob" className="text-sm hover:underline">
                   X
                 </a>
               </li>
               <li>
-                <a href="#" className="text-sm hover:underline">
+                <a href="https://github.com/koogle" className="text-sm hover:underline">
                   GitHub
                 </a>
               </li>
