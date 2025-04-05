@@ -7,15 +7,24 @@ const merriweather = Merriweather({
   weight: ["300", "400", "700", "900"],
   subsets: ["latin"],
 })
+interface Post {
+  id: string;
+  title: string;
+  content: string;
+  date: string;
+  readTime: string;
+}
 
 export default async function Post({ 
   params,
   searchParams 
 }: { 
-  params: { id: string }
-  searchParams: { from?: string }
+  params: Promise<{ id: string }>
+  searchParams: Promise<{ from?: string }>
 }) {
-  const response = await fetch(`http://localhost:3000/api/posts/${params.id}`);
+  const resolvedParams = await params;
+  const resovledSearchParams = await searchParams;
+  const response = await fetch(`http://localhost:3000/api/posts/${resolvedParams.id}`);
   
   if (!response.ok) {
     if (response.status === 404) {
@@ -24,7 +33,8 @@ export default async function Post({
     throw new Error('Failed to fetch post');
   }
 
-  const post = await response.json();
+  const post: Post = await response.json();
+  
 
   return (
     <main className={`min-h-screen ${merriweather.className}`}>
@@ -43,7 +53,7 @@ export default async function Post({
         />
 
         <div className="mt-12 pt-6 border-t border-black">
-          {searchParams.from === 'archive' ? (
+          {resovledSearchParams.from === 'archive' ? (
             <Link href="/archive" className="text-sm font-medium hover:underline">
               ← Back to archive
             </Link>
@@ -57,4 +67,3 @@ export default async function Post({
     </main>
   )
 }
-
