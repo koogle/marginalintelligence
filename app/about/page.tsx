@@ -11,6 +11,7 @@ export default function About() {
             This blog is written by Jakob Frick and is a work in progress. These
             are just ponderings and thoughts that I felt compelled to share.
           </p>
+          <p>The name references the intelligence of ideas written in the margins and also my own marginal intelligence.</p>
         </div>
       </div>
     </main>
