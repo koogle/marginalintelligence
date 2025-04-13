@@ -35,12 +35,16 @@ export const posts: Record<
   string,
   Omit<Post, "content" | "length" | "excerpt" | "readTime">
 > = {
-  "the-importance-of-marginal-intelligence": {
-    id: "the-importance-of-marginal-intelligence",
-    title: "The Importance of Marginal Intelligence [This is a demo post]",
-    date: "2024-04-05",
+  "money-and-naval-power": {
+    id: "money-and-naval-power",
+    title: "Money and Naval Power",
+    date: "2025-04-11",
   },
-  // Add more posts here
+  "about-the-name": {
+    id: "about-the-name",
+    title: "About the name",
+    date: "2025-04-11",
+  }
 };
 
 async function markdownToHtml(markdown: string) {
