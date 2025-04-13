@@ -13,7 +13,7 @@ const merriweather = Merriweather({
 
 export const metadata: Metadata = {
   title: "Marginal Intelligence",
-  description: "A minimal blog by Jakob Frick",
+  description: "A blog by Jakob Frick",
 };
 export default function RootLayout({
   children,
