@@ -36,9 +36,17 @@ export const posts: Record<
   string,
   Omit<Post, "content" | "length" | "excerpt" | "readTime">
 > = {
+
+  "evals-and-vibes": {
+    id: "evals-and-vibes",
+    title: "[wip] Eval and Vibes",
+    date: "2025-04-13",
+  },
+  
+
   "money-and-naval-power": {
     id: "money-and-naval-power",
-    title: "[draft] Money and Naval Power",
+    title: "Money and Naval Power",
     date: "2025-04-11",
   },
   "about-the-name": {
