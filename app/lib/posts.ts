@@ -37,7 +37,7 @@ export const posts: Record<
 > = {
   "money-and-naval-power": {
     id: "money-and-naval-power",
-    title: "Money and Naval Power",
+    title: "[draft] Money and Naval Power",
     date: "2025-04-11",
   },
   "about-the-name": {

@@ -1,12 +1,12 @@
-### [draft] [needs citations]
+#### [WIP] [needs citations]
 
 When reading about the Napoleonic Wars one thing that jumps out is the fact that Britian was Napoleons main antagonist throughout the successive wars but direct engagements between French and British Troops are much rarer than for example the confrontations with Austria.
 
 Since Britian is much closer to France one would expect frequent clashes either in the channel or via expeditionary forces. Napoleon dreamed about invading Britian and dealing with "the nation of shopkeepers" once and for all(**). The obvious answer is that miles of cost are much easier to defend than conquer (Omaha beach comes to mind) and after the Royal Navy sunk the main parts of the French fleet at Travalgar an invasion of the British Isles was next to impossible. Any invasion would have had to rely on favourable weather and hope to not be detected by superior Navy ships.
 
-After the French fleet was dealt with Britian blockaded French ports in and around the Medditerian and seized French vessels(**). Brittania ruled the seas and had a world spanning empire. The budding industrial revolution meant that British productivity and industry outpaced the rest of the continent(**).
+After the French fleet was dealt with Britian blockaded French ports in and around the Medditerian and seized French vessels. Brittania ruled the seas and had a world spanning empire. The first industrial revolution meant that [British productivity](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=8c94b8f3de290cb3190f5704df516081e197facc) and industry outpaced the rest of the [continent] apart from the Netherlands(https://econ.columbia.edu/wp-content/uploads/sites/18/2021/11/bns_malthus.pdf).
 
-So why then did Britian not invade France (earlier) and put an end to French wars on the contient?
+*So why then did Britian not invade France (earlier) and put an end to French wars on the contient?*
 
 Britian was a Naval power akin to the United States today. Her wealth and dominance came from the combination of a world-spanning trade system (**) that allowed for the global flow of goods from and to Britian (denoted in GBP **) and an industrial base that was technologically superior.
 
