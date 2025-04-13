@@ -1,5 +1,6 @@
 import matter from "gray-matter";
 import { remark } from "remark";
+import remarkGfm from 'remark-gfm'
 import html from "remark-html";
 import fs from "fs";
 import path from "path";
@@ -48,7 +49,7 @@ export const posts: Record<
 };
 
 async function markdownToHtml(markdown: string) {
-  const result = await remark().use(html).process(markdown);
+  const result = await remark().use(remarkGfm).use(html).process(markdown);
   return result.toString();
 }
 
