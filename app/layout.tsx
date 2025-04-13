@@ -35,7 +35,7 @@ function Header() {
   return (
     <header className="border-b border-black">
       <div className="max-w-2xl mx-auto px-4 py-6 flex justify-between gap-2 items-center">
-        <div className="font-bold text-xl">MARGINAL INTELLIGENCE</div>
+        <Link href="/" ><div className="font-bold text-xl">MARGINAL INTELLIGENCE</div></Link>
         <nav>
           <ul className="flex space-x-6">
             <li>
