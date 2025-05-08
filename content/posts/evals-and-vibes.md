@@ -20,11 +20,9 @@ The issue of mismatched expectations is compounded by the fact that LLMs are too
 
 In the end, the question of how good an LLM is mirrors the question we ask of a human:
 
-What do you care about in the output?
-
-Do you have enough understanding of the field to meaningfully critique it?
+- What do you care about in the output?
+- Do you have enough understanding of the field to meaningfully critique it?
 
 When we assign a task to a human, we don’t judge them based on the first answer they blurt out. We judge them on what they produce after taking time to think, using tools, reasoning, and checking their work. If you ask someone to do a financial analysis but don’t give them a calculator or Excel, you won’t expect much detail. If you ask someone to critique a movie, you expect them to have seen it in full—and to have seen many others. More importantly, you expect that the person can improve at the task over time.
 
 Those same assumptions—the ability to reason, to learn, to use tools—we should apply when asking AIs to perform real-world tasks. With reasoning, multimodal capabilities, MCP, and tool use, we’re beginning to chart a path where AIs can actually be effective in the real world.
-
