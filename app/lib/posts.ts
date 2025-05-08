@@ -37,12 +37,16 @@ export const posts: Record<
   Omit<Post, "content" | "length" | "excerpt" | "readTime">
 > = {
 
+  "infinite-earth": {
+    id: "infinite-earth",
+    title: "[WIP] The infinite earth",
+    date: "2025-05-07",
+  },
   "evals-and-vibes": {
     id: "evals-and-vibes",
-    title: "[wip] Eval and Vibes",
+    title: "[WIP] Why vibes are everything",
     date: "2025-04-13",
   },
-  
 
   "money-and-naval-power": {
     id: "money-and-naval-power",

@@ -1,5 +1,3 @@
-#### Why vibes are everything
-
 How do we know someone is doing a good job?
 
 How do we know if AI is doing a good job?
