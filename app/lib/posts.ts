@@ -39,12 +39,12 @@ export const posts: Record<
 
   "infinite-earth": {
     id: "infinite-earth",
-    title: "[WIP] The infinite earth",
+    title: "The infinite earth",
     date: "2025-05-07",
   },
   "evals-and-vibes": {
     id: "evals-and-vibes",
-    title: "[WIP] Why vibes are everything",
+    title: "Why vibes are everything",
     date: "2025-04-13",
   },
 
