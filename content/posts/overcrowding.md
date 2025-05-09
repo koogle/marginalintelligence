@@ -1,0 +1,3 @@
+- too many tourist causing a perspective shift
+- instead of enjoying a museum you just the the people
+- it still looks the same on instagram but is very different in person
