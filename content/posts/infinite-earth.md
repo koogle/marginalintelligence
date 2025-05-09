@@ -1,20 +1,17 @@
 Growing up I was always told to save water and energy as "the earth's resources are finite and we only have one earth". This always struck me as wrong but at the same time it is such a simple and obvious statement that it is hard to refute.
 
-I think it is a very common statement in Germany and has influenced the culture a lot in back half of the 20th century. The idea is basically that at one point we are going to use the last liter of fresh water
+I think it is a very common statement in Germany and has influenced the culture a lot in back half of the 20th century. The idea is basically that at one point we are going to use the last liter of fresh water or mine the last ore of iron on earth.
 
-- degrowth
-- infinite
+The reaction to this meme vary widely based on how someone thinks about human capabilities and if the human interaction with the natural world are a good or bad thing. If you come from a more christian background and believe in humanity as the destroyer of the garden of eden your repsonse can range from we need to manage our growth - become more efficent -, to thinking about degrowth, or even that humans shouldn't be borne at all.
+If you believe that humans should flourish but still accept the premise the answer is often that before we run out of resources on earth we are going to conquer the stars and get resources from off-world, such as mining asteroied.
 
-- at the same time obvious false
-- the last couple of centuries
+I believe the statment in itself is wrong and false in obvious ways: If you think about the physical foundation of the natural world you realise that outside of an atomic fision or fusion material is never lost but only transformed.
+What is changed, is energy is going from forms of less entropy to more entropy. We are "using" energy, but at the same time the earth is bathed in energy every day by the gigantic fusion reactor in the sky, and gets kenetic energy from our interaction with other celestial bodies. On net, it will be a long time before we use so much energy that we are actually loosing any.
 
-- if you think about a roman they would say there is only so much wood 
-- new inventions allows us to use new resources
+More importantly is that the idea of a finite earth could have rang true in any time in human history and would seem obviously wrong nowadays. Thinking about the Roman Empire, a Roman philisopher might have agreed that at some point we will have used up the last tree, harvested all the fields and used the last bronze and marble in existince. When we think about finite resources, we think about the finite resources that are relevant to our time and our level of technology.
+Luckly for humanity we have consistently found completley new resources and new ways of using existing better. Romans would have seen coal as marginally useful to write with and as makeup, but in the industrial revolution we have figured out how to use it as a source of power for applications beyond anything a Roman could imagine. In antiquity large percentages of the population and slave labour was necessary to feed society while our modern societies need many less farmers and we have been able to grow more than ten times as much on the same land.
 
-- there is no acutal loss apart from the loss in energy
-- every day the fusion reactor in the sun gives us boundless free energy as does the gravity pull from other celestial bodies
+The statement "the earth's resources are finite and we only have one earth" has the assumpiton backed in that the current level of technology is the pinnacle of human progress and that there are very few things left to discover. Essentially the way we use and can use the natural resources are fixed and because we have a limited budget we have to now manage with what we are given for the rest of time.
+The history of humanity is repudiation of this idea: We constantly find new ways of using natural resources. We literally find ways to make more with less. If you bet on the fact that human progress will continue, you can assume that we will find new resources that we have not considered yet or even find ways to use existing things in new ways. Even if the new resources are limited in their quantity the cycle will continue, as well as our ability to re-use and recycle will improve.
 
-the real idea behind this is 
-- this is as good as it gets 
-- no technological progress
-- lets just manage things rather than accelerate and change things
+In reality, the earth is not finite as long as we keep innovating. 
