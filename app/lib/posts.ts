@@ -36,11 +36,6 @@ export const posts: Record<
   string,
   Omit<Post, "content" | "length" | "excerpt" | "readTime">
 > = {
-  "overcrowindg": {
-    id: "overcrowding",
-    title: "[wip] the problem with too many visitors",
-    date: "2025-05-08",
-  },
   "infinite-earth": {
     id: "infinite-earth",
     title: "The infinite earth",
