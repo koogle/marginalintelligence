@@ -4,8 +4,7 @@ An extreme example of this in history is that the Mongol armies riding on horseb
 ## Public Policy and the OODA loop
 
 The OODA loop is not restircited to military context. It is also encountered in civil settings such as when companies or governments have to make decisions. In my view, the state of German politics is a good example of what happens when reality gets inside the OODA loop of the governemnt. Germany politics are consensus driven and big policy decisions are often deliberated for a long time. Often a group of experts is send on a fact finding mission before making any decsions. Their findings are then input into the political decision making process.
-
-
+The problem here are the timelines. In Germany there is currently a commision underway to figure out how to fix the exploding cost of health care. Their solutions will not be presented until end of 2026, meaning any short term disruptions cannot be handled by them. What is worst, is this is considered very fast. there are projects underway for cheaper pharmacies that have been going on for 16 years.
 
 ooda loop epxlanation
 the governemtn ia also performing the same loop when it comes to policy
