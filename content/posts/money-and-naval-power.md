@@ -1,10 +1,6 @@
-#### [WIP]
-
-- [ ] Needs conclusion
-
 When reading about the Napoleonic Wars, one thing that stands out is the fact that Britain was Napoleon's main antagonist throughout the successive wars. However, direct engagements between French and British troops were much rarer than, for example, confrontations with Austria.
 
-Since Britain is much closer to France, one would expect frequent clashes either in the English Channel or via expeditionary forces. Napoleon dreamed of invading Britain and dealing with "the nation of shopkeepers" once and for all. The obvious reason this didn't happen is that miles of coast are much easier to defend than conquer (Omaha Beach comes to mind). After the Royal Navy sunk the main parts of the French fleet at Trafalgar, an invasion of the British Isles was next to impossible. Any invasion would have had to rely on favorable weather and hope to not be detected by superior Navy ships.
+Since Britain is much closer to France, one would expect frequent clashes either in the English Channel or via expeditionary forces. Napoleon dreamed of invading Britain to deal with "the nation of shopkeepers" once and for all. The obvious reason this didn't happen is that miles of coast are much easier to defend than conquer (Omaha Beach comes to mind). After the Royal Navy sunk the main parts of the French fleet at Trafalgar, an invasion of the British Isles was next to impossible. Any invasion would have had to rely on favorable weather and hope to not be detected by superior Navy ships.
 
 After the French fleet was dealt with, Britain blockaded French ports in and around the Mediterranean and seized French vessels. Britannia ruled the seas and had a world-spanning empire. The first Industrial Revolution meant that British productivity[^1] and industry outpaced the rest of the continent (apart from the Netherlands)[^2].
 
@@ -28,6 +24,11 @@ All of this meant that Britain had no desire to raise a large army herself but r
 Napoleon saw some of this and tried to weaken the British economy through a continental tariff regime but never fully succeeded. One could argue that a massive economic downturn might have ended Britain's policy and led to a collapse of its ability to support the various coalitions, but the higher productivity and her colonies meant she had ample resources.
 
 Britain spent a huge amount of money on supporting her allies, but it was a cheap bargain compared to the cost of fighting herself.
+
+### TODOs
+
+- [*] needs conclusion
+
 
 [^1]: https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=8c94b8f3de290cb3190f5704df516081e197facc
 [^2]: https://econ.columbia.edu/wp-content/uploads/sites/18/2021/11/bns_malthus.pdf
