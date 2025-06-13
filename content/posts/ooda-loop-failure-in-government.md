@@ -7,7 +7,16 @@ The OODA loop is not restircited to military context. It is also encountered in 
 The problem here are the timelines. In Germany there is currently a commision underway to figure out how to fix the exploding cost of health care. Their solutions will not be presented until end of 2026, meaning any short term disruptions cannot be handled by them. What is worst, is this is considered very fast. there are projects underway for cheaper pharmacies that have been going on for 16 years.
 
 the problem is that frustration builds up. the frustration that seemingly nothing gets done. instead of progress citzens see just announcements which start to ring hollow. the idea is that government needs to justify itself not just through budgets ans proclamtions but through tangible change.
+
+By the time goverment and politics have finished observation and decided to act, their environemnt has changed and often the actions are inadequate. This leads to a sense of staleness and frustration on the side of the electorate who wants problems fixed. if it takes years to acknowledge problems that are obviously real any action will come to late and often encounter cynism.
+
 if governemt is stuck in the first parts of the ooda loop because reality changes too quickly implementation and action can never be realised.
 government needs to be able to react swiftly in times of crisis, but what about if every day change happens faster than the poltical process.
-a similar problem happens in the justice systme. in a lot of western system you can see a pattern of crime happening and prosecution taking months or years. again germany is a great example ... . 
-it is often not understandable to the average citizen why it takes years to prosecute somoen if a video or miltople shows them commiting a crime 
+
+Government at the speed of reality is required to not loose the trust of the electorate in the poltical system. Politicans have gotten used to the fact that enacting change takes a lot of time and requries a consensus among a lot of stakeholders. Pressed on issues they often point to announcements and resolutions as equivalent to action. This works as long as action follows quickly. If action is replaced by announcement every subsequent announcement is less credible. Especially, in areas where success is measured in a feeling than in data, this can be fatal to trust. If you feel your town has fallen economically behind it does not matter how often you read about new investment initatives or tax credits.
+
+This is even worse when it comes to justice with social media providing fuel to the fire. You can observe in the western world that in various places crimes happen and are now well documented. it still takes the prosecution months or years to bring a case. in part because they want to make sure that they do not loose any high profile case but it also because the gears of justice have overgrown with process.
+
+again germany is a great example ... .
+this leads to a sense of lawesness and injustice that is spawned by a misguided sense that the best process will yield the best outcome. it fails to take into account that the speed at which justice is a vital part of this outcome.
+it is often not understandable to the average citizen why it takes years to prosecute somoen if a video or miltople shows them commiting a crime especially if the perpetratorus then can roam freeor even leave the country while they are awaiting trial.
