@@ -22,4 +22,7 @@ This is even worse when it comes to the justice system, with social media provid
 
 This leads to a sense of lawesness and injustice which is in part an outcome of mindset that values process over speed. It fails to take into account that the speed at which justice is delivered is a vital part of this outcome. If it takes years to prosecute crimes it feels as if the perpetratours have gotten off easy.
 
-###
+### Strive for high RPM
+
+We perceive to live in a world with ever faster technological change, while our institutions have been honed over decades to follow ever more evolved processes. This impedence mismatch means that politics appears to always be ten steps behind reality, especially in Europe where good process is seen as an unalloyed good. We see a yearning of our leaders for easier times and slower change so they can catch up and finally get through their backlog of adaption. This is a fantasy.
+We need to update our institutions to match reality. Only if we can shorten the cycle time and get back in lock step with reality can we restore trust and credibility. The credibility that those in power can actually handle and act on the reality of the present day, rather than based on learning from years ago.
