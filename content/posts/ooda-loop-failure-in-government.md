@@ -9,7 +9,7 @@ The OODA loop is a helpful mental model when thinking about how companies or gov
 In Germany there is currently a commision underway to figure out how to fix the exploding cost of health care. Their solutions will not be presented until end of 2026, meaning any short-term changes or disruptions might just not even be considered. Some might even consider this fast. There are projects underway for cheaper pharmacies that have been going on for 16 years(!).
 Of course by the time any recommendations have been translated into policy reality might be fundamentally different.
 
-This to frustration and a sense that politicans are fighting the last war. The frustration that seemingly nothing gets done. Instead of progress. citzens see just announcements. These announcments are rarely implemented and even when they are implemented they do not match the current reality. After cycles of announcemnets without improvments, the declaration start to ring hollow. If announcements are a substitute for action every subsequent announcement is less credible.
+Citizens get the sense that politicans are fighting the last war and a frustration that seemingly nothing gets done. Instead of progress. citzens see just announcements. These announcments are rarely implemented and even when they are implemented they do not match the current reality. After cycles of announcemnets without improvments, the declaration start to ring hollow. If announcements are a substitute for action every subsequent announcement is less credible.
 
 Government at the speed of reality is required to not loose the trust of the electorate. Goverment needs to justify itself not just through budgets and proclamations but through tangible improvments in people's life. If it takes years to acknowledge problems that are real, any action will come too late and often encounter cynism. The governemt might just endlessly be stuck in the first two steps of ODDA loop because reality changes too quickly. Implementation and action can never be realised.
 Politicans have gotten used to the fact that enacting change takes a lot of time and requries a consensus among a lot of stakeholders.
@@ -18,7 +18,7 @@ Especially, in areas where success is measured in a feeling rather than in data,
 
 ### Speed of justice
 
-This is even worse when it comes to the justice system, with social media providing additional pressure. You can watch real crime take place that is well documentend and it still takes the prosecution months or years to bring a case.Iin part because they want to make sure that they do not loose any high profile case but it also because the gears of justice have overgrown with process.
+It is even worse when it comes to the justice system, with social media constant pressure. You can watch real crime take place that is well documentend and it still takes the prosecution months or years to bring a case.Iin part because they want to make sure that they do not loose any high profile case but it also because the gears of justice have overgrown with process.
 
 This leads to a sense of lawesness and injustice which is in part an outcome of mindset that values process over speed. It fails to take into account that the speed at which justice is delivered is a vital part of this outcome. If it takes years to prosecute crimes it feels as if the perpetratours have gotten off easy.
 
