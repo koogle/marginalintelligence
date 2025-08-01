@@ -21,3 +21,5 @@ Especially, in areas where success is measured in a feeling rather than in data,
 This is even worse when it comes to the justice system, with social media providing additional pressure. You can watch real crime take place that is well documentend and it still takes the prosecution months or years to bring a case.Iin part because they want to make sure that they do not loose any high profile case but it also because the gears of justice have overgrown with process.
 
 This leads to a sense of lawesness and injustice which is in part an outcome of mindset that values process over speed. It fails to take into account that the speed at which justice is delivered is a vital part of this outcome. If it takes years to prosecute crimes it feels as if the perpetratours have gotten off easy.
+
+###

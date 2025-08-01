@@ -1,6 +1,6 @@
 import matter from "gray-matter";
 import { remark } from "remark";
-import remarkGfm from 'remark-gfm'
+import remarkGfm from "remark-gfm";
 import html from "remark-html";
 import fs from "fs";
 import path from "path";
@@ -36,6 +36,11 @@ export const posts: Record<
   string,
   Omit<Post, "content" | "length" | "excerpt" | "readTime">
 > = {
+  "ooda-loop-failure-in-government": {
+    id: "ooda-loop-failure-in-government",
+    title: "Thinking in OODA loops",
+    date: "2025-07-30",
+  },
   "infinite-earth": {
     id: "infinite-earth",
     title: "The infinite earth",
@@ -56,7 +61,7 @@ export const posts: Record<
     id: "about-the-name",
     title: "About the name",
     date: "2025-04-11",
-  }
+  },
 };
 
 async function markdownToHtml(markdown: string) {
