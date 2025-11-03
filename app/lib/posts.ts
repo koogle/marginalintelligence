@@ -62,6 +62,11 @@ export const posts: Record<
     title: "About the name",
     date: "2025-04-11",
   },
+  "seeing-china": {
+    id: "seeing-china",
+    title: "Seeing China for a week",
+    date: "2025-10-21",
+  },
 };
 
 async function markdownToHtml(markdown: string) {
